@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <mageinstaller_adminhtml_mageinstaller_index>
+        <reference name="content">
+            <block type="mageinstaller/adminhtml_mageinstaller" name="mageinstaller" />
+        </reference>
+    </mageinstaller_adminhtml_mageinstaller_index>
+	
+    <mageinstaller_adminhtml_files_index>
+        <reference name="content">
+            <block type="mageinstaller/adminhtml_files" name="mageinstaller" />
+        </reference>
+    </mageinstaller_adminhtml_files_index>	
+	
+</layout>

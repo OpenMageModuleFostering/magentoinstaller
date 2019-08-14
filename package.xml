@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MagentoInstaller</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A tool to install magento extension from the admin section.</summary>
+    <description>A tool to install magento extension from the admin section.</description>
+    <notes>0.1.0</notes>
+    <authors><author><name>Magestore</name><user>auto-converted</user><email>magestore@gmail.com</email></author></authors>
+    <date>2010-02-04</date>
+    <time>09:25:34</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="mageinstaller.xml" hash="30e3f824d2ef01fc626cb15460a2c718"/></dir></dir></dir></dir></target><target name="mage"><dir name="lib"><dir name="PEAR"><file name="Archive_Tar.php" hash="b064779adbef1c0189bd78acce2b300e"/></dir></dir></target><target name="magecommunity"><dir name="Magestore"><dir name="Mageinstaller"><dir name="Block"><dir name="Adminhtml"><file name="Files.php" hash="228919607ad4b9481ed724b3cebae6c9"/><file name="Mageinstaller.php" hash="8fa8391489998aea47ddb41d34b44c83"/><dir name="Files"><file name="Grid.php" hash="312e1bd9f6e7265d17ea78f5ccfb599c"/></dir><dir name="Mageinstaller"><file name="Edit.php" hash="8058552f60305db6d39dff15de05d6a4"/><file name="Grid.php" hash="d7db6c5d60cbc1a37d24a7a06c308357"/><dir name="Edit"><file name="Form.php" hash="ba42dd756c5c3e70ea766df57b049121"/><file name="Tabs.php" hash="99f890589de33579591f43fd09f4d726"/><dir name="Tab"><file name="Form.php" hash="253f7cadc38da7a7b0dfc6087f38b7b8"/></dir></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="0376ad787f7730891d10d6750ab17da2"/><dir name="Adminhtml"><file name="FilesController.php" hash="a03eb991237e29c8f4fbd7d7ef13bb95"/><file name="MageinstallerController.php" hash="82e4b317c527ff283f420c0eb5cd638c"/></dir></dir><dir name="etc"><file name="config.xml" hash="1a5c4c7424be51068c04a7d37cecc715"/></dir><dir name="Helper"><file name="Data.php" hash="54a9bf5135c6dc4196d6c5e5b4809e6c"/></dir><dir name="Model"><file name="Extension.php" hash="f9aca70b260b130eccd26a1761df62b5"/><file name="File.php" hash="2c1046e6d4a7bebbfc0aac5697c75145"/><file name="Gzipper.php" hash="e0405d263b5b7aab3ec3a6badf17f5d8"/><file name="Installer.php" hash="22677f634bc182080714aa5cf1f8d078"/><file name="Status.php" hash="9707c26163e27d94af70c91e8713e82b"/><file name="Zipper.php" hash="6cbd27b155b5bf7f2037e235c99f1a19"/><dir name="Mysql4"><file name="Extension.php" hash="d5546bb27e232d42542b1742fffdd528"/><file name="File.php" hash="5c237ce87118e85f14b75a34bcc9f24f"/><dir name="Extension"><file name="Collection.php" hash="ec89152fbcf73733c6cefa865930baab"/></dir><dir name="File"><file name="Collection.php" hash="4e147df750662e5bdf6858c3940ad9b1"/></dir></dir></dir><dir name="sql"><dir name="mageinstaller_setup"><file name="mysql4-install-0.1.0.php" hash="6370405dd3443bef5e48217c62e9c8b7"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magestore_Mageinstaller.xml" hash="ba5d8422790e977b906efc2b28bb6edd"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
