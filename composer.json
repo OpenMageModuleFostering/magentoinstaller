@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/MagentoInstaller",
+    "name": "openmage-module-fostering\/magentoinstaller",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
