@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MagentoInstaller",
+    "name": "OpenMageModuleFostering\/MagentoInstaller",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "A tool to install magento extension from the admin section.",
     "authors": [
-    {
-        "name": "Magestore",
-        "email": "magestore@gmail.com"
-    }
-],
+        {
+            "name": "Magestore",
+            "email": "magestore@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
